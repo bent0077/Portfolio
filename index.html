@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="main.css">
     <link rel="stylesheet" href="main.scss">
+    <script src="https://kit.fontawesome.com/c7a5ecf131.js" crossorigin="anonymous"></script>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Signika+Negative&display=swap"
@@ -17,27 +18,27 @@
 
 <body>
     <!---Navigation Bar---------------------------------------------------------------------------------------------------------------------------------->
-    <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark text-light">
         <div class="container">
-            <a href="#Home" class="navbar-brand">SasheaDesign</a>
+            <a href="#Home" class="navbar-brand fs-3">SasheaDesign</a>
 
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu">
                 <span class="navbar-toggler-icon"></span>
             </button>
 
-            <div class="collapse navbar-collapse" id="navmenu">
+            <div class="collapse navbar-collapse fs-3" id="navmenu">
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item">
-                        <a href="#Home" class="nav-link">Home</a>
+                        <a href="index.html" class="nav-link">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a href="#Portfolio" class="nav-link">Portfolio</a>
+                        <a href="portfolio.html" class="nav-link">Portfolio</a>
                     </li>
                     <li class="nav-item">
-                        <a href="#About" class="nav-link">About Me</a>
+                        <a href="about.html" class="nav-link">About Me</a>
                     </li>
                     <li class="nav-item">
-                        <a href="#contact" class="nav-link">Contact</a>
+                        <a href="#contact.html" class="nav-link">Contact</a>
                     </li>
                 </ul>
 
@@ -67,103 +68,126 @@
             <div class="row ">
                 <div class="col-lg-6">
                     <h1> Portfolio</h1>
-                    <p> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Natus et, dolore porro ratione
-                        laboriosam non laudantium autem ullam cupiditate nam nostrum possimus optio, atque odit
+                    <p class="fs-4"> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Natus et, dolore porro
+                        ratione laboriosam non laudantium autem ullam cupiditate nam nostrum possimus optio, atque odit
                         doloribus corporis id. At, unde? Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                        Saepe rerum praesentium esse cupiditate quae non eum libero neque quam mollitia quis voluptas
-                        dolores atque nulla, autem laborum. Magni, id nemo.
+                
                     </p>
+                    <button type="button" class="btn btn-light btn-rounded btn-lg mb-4"> See More</button>
                 </div>
                 <!----Portrait--->
                 <div class="col-lg-6">
-                    <img class="img-fluid" src="img/desktop_images/portrait.desktop.jpg" alt="person on a balcony">
+                    <img class="img-fluid" class="portait" src="img/desktop_images/portrait.desktop.jpg" alt="person on a balcony">
                 </div>
                 <!----Photo Essay------>
                 <div class="col-lg-6 mt-4">
                     <img class="img-fluid" src="img/desktop_images/photoessay.desktop.jpg" alt="person in a bar">
                 </div>
                 <!----Misc----->
-                <div class="col-lg-6 mt-4">
+                <div class="col-lg-6 mt-4 overlay"">
                     <img class="img-fluid" src="img/desktop_images/misc.desktop.jpg" alt="single flower">
                 </div>
             </div>
 
     </section>
     <!-------------Contact Section------------------------------------------------------------------------------------------------------------------------->
-    <section class="bg-light text-dark">
+    <section class="bg-light text-dark p-5 ">
         <div class="container">
-            <div class="row ">
+            <div class="row">
 
-                <div class="col-lg-6 mt-5">
+                <div class="col-lg-6">
                     <h1>Let's Connect!</h1>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam pariatur natus deserunt esse
+                    <p class="fs-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam pariatur natus
+                        deserunt esse
                         ducimus, veniam earum hic
                         dolorem magni recusandae minima tempora quos reprehenderit. Eveniet aspernatur vel veniam minus
                         quae! Lorem ipsum, dolors
                         it amet consectetur adipisicing elit. Neque excepturi eum accusamus doloremque nam beatae numqua
                         veniam ab odit facere eligendi deserunt, maiores, harum ducimus voluptas iure sed maxime unde.
                     </p>
+                    <button type="button" class="btn btn-dark btn-rounded btn-lg mb-4"> Contact Info</button>
                 </div>
 
-                <div class="col-lg-6 my-5">
+                <div class="col-lg-6 ">
                     <img class="img-fluid" src="img/desktop_images/contact.desktop.jpg" alt="a floor lamp">
                 </div>
+
+
+            </div>
+
+    </section>
+    <!-----------About Me----------------------------------------------------------------------------------------------------------------------------------->
+    <section class="bg-dark text-light p-5 ">
+        <div class="container">
+            <div class="row ">
+
+                <div class="col-lg-6">
+                    <img class="img-fluid" src="img/desktop_images/thebox.2.jpg" alt="a floor lamp">
+                </div>
+
+                <div class="col-lg-6">
+                    <h1 class="">About Me</h1>
+                    <p class="fs-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam pariatur natus
+                        deserunt esse
+                        ducimus, veniam earum hic
+                        dolorem magni recusandae minima tempora quos reprehenderit. Eveniet aspernatur vel veniam minus
+                        quae! Lorem ipsum, dolors
+                        it amet consectetur adipisicing elit. Neque excepturi eum accusamus doloremque nam beatae numqua
+                        veniam ab odit facere eligendi deserunt, maiores, harum ducimus voluptas iure sed maxime unde.
+                    </p>
+                    <button type="button" class="btn btn-light btn-rounded btn-lg  "> Learn More</button>
+                </div>
+
+
 
             </div>
         </div>
 
     </section>
-    <!-----------About Me----------------------------------------------------------------------------------------------------------------------------------->
-    <div class="container">
-        <div class="row ">
 
-            <div class="col-lg-6">
-                <img class=" " src="img/desktop_images/" alt="myself" </div>
 
-                <div class="col-lg-6">
 
-                </div>
 
-            </div>
+
+    <!-- Footer ---------------------------------------------------------------------------------------------------------------------------------------------->
+
+    <footer class="bg-light text-center text-dark">
+
+        <div class="container p-4 pb-0">
+            <!-- Section: Social media -->
+            <section class="mb-4">
+
+                <!-- Twitter -->
+                <a class="btn btn-outline-dark btn-floating m-1" href="#!" role="button"><i
+                        class="fa-brands fa-twitter"></i></a>
+
+                <!-- Instagram -->
+                <a class="btn btn-outline-dark btn-floating m-1" href="#!" role="button"><i
+                        class="fab fa-instagram"></i></a>
+
+                <!-- Linkedin -->
+                <a class="btn btn-outline-dark btn-floating m-1" href="#!" role="button"><i
+                        class="fab fa-linkedin-in"></i></a>
+
+
+            </section>
         </div>
-        <!-- Footer ---------------------------------------------------------------------------------------------------------------------------------------------->
-        <footer class="bg-dark text-center text-white">
 
-            <div class="container p-4 pb-0">
-                <!-- Section: Social media -->
-                <section class="mb-4">
-
-                    <!-- Twitter -->
-                    <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i
-                            class="fab fa-twitter"></i></a>
-
-                    <!-- Instagram -->
-                    <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i
-                            class="fab fa-instagram"></i></a>
-
-                    <!-- Linkedin -->
-                    <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i
-                            class="fab fa-linkedin-in"></i></a>
-
-
-                </section>
-            </div>
-
-            <!-- Copyright -->
-            <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
-                © 2020 Copyright:
-                <a class="text-white" href="https://mdbootstrap.com/">MDBootstrap.com</a>
-            </div>
-        </footer>
+        <!-- Copyright -->
+        <div class="text-center p-3" style="background-color: rgba(255, 255, 255, 0.2);">
+            © 2020 Copyright:
+            <a class="text-dark fs-5" href="https://sasheadesign.com/">sasheadesign.com</a>
+        </div>
+    </footer>
 
 
 
 
 
 
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-            integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
-            crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>
