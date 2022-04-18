@@ -1,27 +1,24 @@
 ## About the Project (How you created your web portfolio)
-
- I made my portfolio using mostly bootstrap because css is not my strong suit.
-  I only used css for the hover effect for the images, changing the fonts and other things that I wasn't able to use bootstrap for. 
-  I used the 12 point grid system and most of my pages with 2 row colloums with content. the coours are a simple black and white. i used many photos in my portfolio.
+For the portfolio,  I used bootstrap for the majority of it because I am not good with CSS. I only used CSS for image hover effects, changing the fonts and anything else I can't use bootstrap. The portfolio follows the 12-point grid system with the content arranged in a 2-row column. I tried to use as many images as I can and kept the colour simply white and black.
 
 ### Challenges Faced 
 
-1.image hover overlay effects was not working 
+1. Image hover overlay effects was not working 
 2. Navigation links were not working on some pages
-3. couldn't make a drop down link for portfolio 
+3. Couldn't make a drop down link for portfolio 
 
 
 ### Overcoming Challenges
 
-1. Found a code that worked and changed it to my preference
-2. Overcoming 2
-3. Made a separate page with all the portfolio collections with appropiate links 
+1. Found a code online that worked and changed it to my preference.
+2. Added Java script code from bootstrap.
+3. Made a separate page with all the portfolio collections with the appropriate links. 
 
 
 ---
 
 ## What I learned
-
+ optimizing images in Photoshop.
  how to make simple animations in css.
  The basics of bootstrap.
 
