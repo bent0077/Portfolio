@@ -18,9 +18,9 @@ For the portfolio,  I used bootstrap for the majority of it because I am not goo
 ---
 
 ## What I learned
- optimizing images in Photoshop.
- how to make simple animations in css.
- The basics of bootstrap.
+1. optimizing images in Photoshop.
+2. how to make simple animations in css.
+3. The basics of bootstrap.
 
 ---
 
