@@ -1,5 +1,5 @@
 ## About the Project (How you created your web portfolio)
-For the portfolio,  I used bootstrap for the majority of it because I am not good with CSS. I only used CSS for image hover effects, changing the fonts and anything else I can't use bootstrap. The portfolio follows the 12-point grid system with the content arranged in a 2-row column. I tried to use as many images as I can and kept the colour simply white and black.
+For the portfolio,  I used bootstrap for the majority of it because I am not good with CSS. I only used CSS for image hover effects, changing the fonts and anything else I can't use bootstrap. The portfolio follows the 12-point grid system with most of the content arranged in a 2-row column. I tried to use as many images as I can and kept the color scheme simply white and black.
 
 ### Challenges Faced 
 
